@@ -122,6 +122,34 @@
             font-weight: 700;
         }
 
+        .flight-info {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .flight {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.6rem 0;
+            font-size: 0.9rem;
+            color: #4a5568;
+        }
+
+        .flight .route {
+            font-weight: 800;
+        }
+
+        .flight .date {
+            color: #718096;
+        }
+
+        .flight .time {
+            font-weight: 700;
+            color: #2d3748;
+        }
+
         #message {
             font-size: 2.5rem;
             font-weight: 800;
@@ -210,6 +238,18 @@
             <div class="time-box">
                 <div class="number" id="seconds">00</div>
                 <div class="label">Seconds</div>
+            </div>
+        </div>
+        <div class="flight-info">
+            <div class="flight">
+                <span class="route">🛫 HND → EWR</span>
+                <span class="date">Tue, Aug 11</span>
+                <span class="time">18:05 → 20:48</span>
+            </div>
+            <div class="flight">
+                <span class="route">🛬 EWR → HND</span>
+                <span class="date">Mon, Aug 31</span>
+                <span class="time">09:00 → 15:40 +1</span>
             </div>
         </div>
     </div>
